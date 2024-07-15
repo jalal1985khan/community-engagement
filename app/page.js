@@ -1,4 +1,3 @@
-import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
 import Clientle from '@/components/Home/Clientle/Clientle'
 import ContactUs from '@/components/Home/ContactUs/ContactUs'
@@ -13,7 +12,10 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <div className="h-[100vh] bg-[url('/home/Banner/banner01.png')] bg-cover bg-center mb-16">
+      <div
+        className="h-[100vh] bg-cover bg-center mb-16"
+        style={{ backgroundImage: `url('/home/Banner/banner01.png')` }}
+      >
         <Header />
         <div className="text-end mt-16">
           <Link href="contact-us">
