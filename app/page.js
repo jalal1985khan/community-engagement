@@ -12,10 +12,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <div
-        className="h-[100vh] bg-cover bg-center mb-16"
-        style={{ backgroundImage: `url('/home/Banner/banner01.png')` }}
-      >
+      <div className="h-[100vh] bg-[url('/home/banner/banner01.png')] bg-cover bg-center mb-16">
         <Header />
         <div className="text-end mt-16">
           <Link href="contact-us">
