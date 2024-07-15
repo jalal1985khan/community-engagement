@@ -484,3 +484,61 @@ export const servicesData = [
     },
   },
 ]
+
+export const blogsData = [
+  {
+    id: 1,
+    imageUrl: '/blogs/image01.png',
+    tiile: 'LOREM IPSUM',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  },
+  {
+    id: 2,
+    imageUrl: '/blogs/image01.png',
+    tiile: 'LOREM IPSUM',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  },
+  {
+    id: 3,
+    imageUrl: '/blogs/image01.png',
+    tiile: 'LOREM IPSUM',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  },
+  {
+    id: 4,
+    imageUrl: '/blogs/image01.png',
+    tiile: 'LOREM IPSUM',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  },
+]
+
+export const successStoriesData = [
+  {
+    id: 1,
+    imageUrl: '/successStories/image01.png',
+    heading: 'Lorem Ipsum',
+    tiile: 'Lorem Ipsum Is Simply',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  },
+  {
+    id: 2,
+    imageUrl: '/successStories/image02.png',
+    heading: 'Lorem Ipsum',
+    tiile: 'Lorem Ipsum Is Simply',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  },
+  {
+    id: 3,
+    imageUrl: '/successStories/image01.png',
+    heading: 'Lorem Ipsum',
+    tiile: 'Lorem Ipsum Is Simply',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  },
+  {
+    id: 4,
+    imageUrl: '/successStories/image02.png',
+    heading: 'Lorem Ipsum',
+    tiile: 'Lorem Ipsum Is Simply',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  },
+]
