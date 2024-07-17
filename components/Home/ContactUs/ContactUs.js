@@ -29,7 +29,7 @@ const ContactUs = () => {
       <input
         type="text"
         id="firstname"
-        className="border-0 outline-none py-2 px-3 rounded text-ce-black"
+        className="border-0 py-2 px-3 rounded text-ce-black focus:outline-none focus:ring-0"
         value={clientele.firstname}
         onChange={(e) =>
           setClientele({ ...clientele, firstname: e.target.value })
@@ -44,7 +44,7 @@ const ContactUs = () => {
       <input
         type="text"
         id="lastname"
-        className="border-0 outline-none py-2 px-3 rounded text-ce-black"
+        className="border-0 py-2 px-3 rounded text-ce-black focus:outline-none focus:ring-0"
         value={clientele.lastname}
         onChange={(e) =>
           setClientele({ ...clientele, lastname: e.target.value })
@@ -59,7 +59,7 @@ const ContactUs = () => {
       <input
         type="email"
         id="email"
-        className="border-0 outline-none py-2 px-3 rounded text-ce-black"
+        className="border-0 py-2 px-3 rounded text-ce-black focus:outline-none focus:ring-0"
         value={clientele.emailId}
         onChange={(e) =>
           setClientele({ ...clientele, emailId: e.target.value })
@@ -70,11 +70,11 @@ const ContactUs = () => {
 
   const renderOrganisationName = () => (
     <div className="flex flex-col w-full">
-      <label htmlFor="organisationName">Organisation Name</label>
+      <label htmlFor="organisationName">Organisation</label>
       <input
         type="text"
         id="organisationName"
-        className="border-0 outline-none py-2 px-3 rounded text-ce-black"
+        className="border-0 py-2 px-3 rounded text-ce-black focus:outline-none focus:ring-0"
         value={clientele.organisationName}
         onChange={(e) =>
           setClientele({ ...clientele, organisationName: e.target.value })
@@ -90,8 +90,8 @@ const ContactUs = () => {
         name="message"
         id="message"
         cols="30"
-        rows="6"
-        className="w-full rounded text-ce-black outline-none px-3 py-2"
+        rows="2"
+        className="w-full border-0 rounded text-ce-black px-3 py-2 focus:outline-none focus:ring-0"
         value={clientele.message}
         onChange={(e) =>
           setClientele({ ...clientele, message: e.target.value })
@@ -101,23 +101,23 @@ const ContactUs = () => {
   )
 
   return (
-    <div className="bg-ce-carmine text-white py-16 px-10 mb-16">
-      <div className="max-w-screen-xl flex flex-col items-center mx-auto gap-5">
-        <h1 className="text-5xl">Contact Us</h1>
-        <div className="border-2 border-white w-16 mb-2" />
-        <p className="text-4xl font-light text-center w-3/5">
-          Reach out to explore how our services can turn insights into impact.
+    <div className="bg-ce-carmine text-white py-10 px-4 sm:px-10 mb-16">
+      <div className="max-w-screen-xl flex flex-col items-center mx-auto gap-3">
+        <h1 className="text-3xl sm:text-4xl">Contact Us</h1>
+        <div className="border-2 border-white w-16" />
+        <p className="text-lg sm:text-2xl font-light text-center w-11/12 sm:w-3/5">
+          Reach out to explore how our services can turn insights into impact
         </p>
-        <p className="mt-4 font-light">
-          Connect with us for your data requirements.
+        <p className="text-sm sm:text-base font-light mb-3 text-center w-11/12 sm:w-auto">
+          Connect with us for your data requirements
         </p>
         <form className="w-full max-w-screen-lg" onSubmit={handleForm}>
-          <div className="space-y-10">
-            <div className="flex gap-3 w-full">
+          <div className="space-y-5">
+            <div className="flex flex-col sm:flex-row gap-3 w-full">
               {renderFirstname()}
               {renderLastname()}
             </div>
-            <div className="flex gap-3 w-full">
+            <div className="flex flex-col sm:flex-row gap-3 w-full">
               {renderEmailId()}
               {renderOrganisationName()}
             </div>
@@ -125,7 +125,7 @@ const ContactUs = () => {
             <div className="text-center">
               <button
                 type="submit"
-                className="px-4 py-2 bg-white rounded text-ce-brown text-xl"
+                className="px-4 py-2 bg-white rounded text-ce-brown text-lg sm:text-xl"
               >
                 Submit
               </button>

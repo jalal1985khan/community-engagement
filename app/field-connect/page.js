@@ -9,7 +9,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
-      <div className="h-[100vh] bg-[url('/whyChooseUs/banner.png')] bg-cover bg-center mb-16">
+      <div className="h-[700px] bg-[url('/webBanner/banner05.png')] bg-cover mb-16">
         <Header />
         <div className="text-end mt-16">
           <Link href="contact-us">
@@ -20,32 +20,30 @@ const page = () => {
         </div>
       </div>
       <div className="-mt-40 mb-16">
-        <div className="max-w-screen-xl mx-auto px-24 flex flex-col gap-6">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-24 flex flex-col gap-6">
           <div className="flex flex-col items-center gap-3">
-            <h1 className="text-6xl text-ce-brown text-center font-semibold">
+            <h1 className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold">
               Field Connect
             </h1>
             <div className="border-2 border-ce-red w-32 mb-2" />
-            <h2 className="text-3xl text-ce-brown text-center">
+            <h2 className="text-lg sm:text-xl lg:text-2xl text-ce-brown text-center">
               Data Quality Assurance and Control Process
             </h2>
           </div>
-          <p className="text-2xl text-ce-gray text-center mb-3">
+          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center mb-3">
             Social research is on the rise, driven by the need to understand
             complex social dynamics beyond mere consumer preferences. This surge
             highlights a crucial gap: the need for well-trained fieldworkers who
             can gather high-quality data, essential for informed decision-making
             and positive social impact.
           </p>
-          <p className="text-2xl text-ce-gray text-center">
+          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center">
             To address this, the Community Engagement unit of the Catalyst Group
-            has launched Field Connect, an initiative aimed at building a
+            has launched Field Connect. This initiative aims to build a
             passionate, future-ready, committed, trained, and ethically
-            certified team. This team, comprising over 2,681 skilled field
-            researchers spread across India—including remote areas—enables
-            rapid, effective community engagement. Our researchers are equipped
-            to handle both quantitative and qualitative data collection,
-            ensuring our partners can reach diverse communities and drive
+            certified team. The team comprises over 2,681 skilled field
+            researchers spread across India, including remote areas. This
+            ensures our partners can reach diverse communities and drive
             impactful solutions.
           </p>
         </div>

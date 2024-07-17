@@ -6,7 +6,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
-      <div className="h-[100vh] bg-[url('/whyChooseUs/banner.png')] bg-cover bg-center mb-16">
+      <div className="h-[700px] bg-[url('/webBanner/banner03.png')] bg-cover mb-16">
         <Header />
         <div className="text-end mt-16">
           <Link href="contact-us">
@@ -17,14 +17,14 @@ const page = () => {
         </div>
       </div>
       <div className="-mt-40 mb-16">
-        <div className="max-w-screen-xl mx-auto px-24 flex flex-col gap-6">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-24 flex flex-col gap-6">
           <div className="flex flex-col items-center gap-3">
-            <h1 className="text-6xl text-ce-brown text-center font-semibold">
+            <h1 className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold">
               Why Choose Us
             </h1>
-            <div className="border-2 border-ce-red w-32 mb-2" />
+            <div className="border-2 border-ce-red w-20 sm:w-32 mb-2" />
           </div>
-          <p className="text-2xl text-ce-gray text-center">
+          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center">
             We excel in accessing and understanding the critical mile where
             impact is targeted—in diverse communities and local ecosystems—which
             is crucial for making informed decisions, implementing
@@ -37,6 +37,7 @@ const page = () => {
           </p>
         </div>
       </div>
+
       <Expertise />
     </>
   )

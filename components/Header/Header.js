@@ -6,18 +6,23 @@ import Image from 'next/image'
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
-  const [dropdownOpen, setDropdownOpen] = useState(false)
+  const [dropdownAbout, setDropdownAbout] = useState(false)
+  const [dropdownResources, setDropdownResources] = useState(false)
 
   const toggleNavbar = () => {
     setNavbarOpen(!navbarOpen)
   }
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen)
+  const toggleDropdown1 = () => {
+    setDropdownAbout(!dropdownAbout)
+  }
+
+  const toggleDropdown2 = () => {
+    setDropdownResources(!dropdownResources)
   }
 
   return (
-    <nav className="" data-aos="fade-down">
+    <nav className="px-3" data-aos="fade-down">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-8">
         <Link
           href="/"
@@ -71,10 +76,10 @@ const Header = () => {
             <li className="relative">
               <button
                 id="dropdownNavbarLink"
-                onClick={toggleDropdown}
+                onClick={toggleDropdown1}
                 className="flex items-center justify-between w-full py-2 px-3 text-white md:p-0 md:w-auto"
               >
-                ABOUT US
+                About Us
                 <svg
                   className="w-2.5 h-2.5 ms-2.5"
                   aria-hidden="true"
@@ -94,7 +99,7 @@ const Header = () => {
               <div
                 id="dropdownNavbar"
                 className={`z-10 ${
-                  dropdownOpen ? 'block' : 'hidden'
+                  dropdownAbout ? 'block' : 'hidden'
                 } absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
               >
                 <ul
@@ -115,14 +120,6 @@ const Header = () => {
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Why Choose Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/success-stories"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
-                      Success Stories
                     </Link>
                   </li>
                 </ul>
@@ -146,32 +143,66 @@ const Header = () => {
                 Services
               </Link>
             </li>
-            <li>
-              <Link
-                href="/blogs"
-                className="block py-2 px-3 text-lg text-white md:p-0"
-                aria-current="page"
-              >
-                Blogs
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/methodology"
-                className="block py-2 px-3 text-lg text-white md:p-0"
-                aria-current="page"
-              >
-                Methodology
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/"
-                className="block py-2 px-3 text-lg text-white md:p-0"
-                aria-current="page"
+
+            <li className="relative">
+              <button
+                id="dropdownNavbarLink"
+                onClick={toggleDropdown2}
+                className="flex items-center justify-between w-full py-2 px-3 text-white md:p-0 md:w-auto"
               >
                 Resources
-              </Link>
+                <svg
+                  className="w-2.5 h-2.5 ms-2.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+              <div
+                id="dropdownNavbar"
+                className={`z-10 ${
+                  dropdownResources ? 'block' : 'hidden'
+                } absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+              >
+                <ul
+                  className="py-2 text-sm text-gray-700 dark:text-gray-400"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  <li>
+                    <Link
+                      href="/blogs"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      Blogs
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/methodology"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      Methodology
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/success-stories"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      Success Stories
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>

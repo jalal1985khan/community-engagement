@@ -2,7 +2,7 @@
 
 import { clientleData } from '@/utils/data'
 import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 const Clientle = () => {
   const [activeTab, setActiveTab] = useState(1)
@@ -11,17 +11,16 @@ const Clientle = () => {
     const filteredActivePartners = clientleData.find(
       (item) => item.id === activeTab
     )
-    console.log(filteredActivePartners)
-    console.log(filteredActivePartners.partners)
+
     return filteredActivePartners.partners
   }
 
   return (
     <div className="mb-16">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center gap-4">
-        <h2 className="text-ce-brown text-4xl">Clientle</h2>
+        <h2 className="text-ce-brown text-3xl">Clientele</h2>
         <div className="border-2 border-ce-red w-20 mb-2" />
-        <p className="text-center text-ce-gray text-xl w-10/12">
+        <p className="text-center text-ce-gray text-lg w-10/12">
           Our expertise spans across various sectors, serving a diverse array of
           clients committed to making a difference. From governmental bodies to
           non-profits and beyond, our data-driven insights light the way for
@@ -50,7 +49,7 @@ const Clientle = () => {
       </div>
 
       <div className="flex justify-center mt-10">
-        <ul className="flex flex-wrap gap-8 max-w-screen-xl mx-auto">
+        <ul className="max-w-screen-xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 px-3">
           {getActivePartners().map((item, index) => {
             return (
               <li key={index}>

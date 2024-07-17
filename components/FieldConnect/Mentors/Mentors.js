@@ -6,13 +6,13 @@ const Mentors = () => {
   return (
     <div className="flex flex-col items-center gap-10 py-16 px-5 mb-10">
       <div className="flex flex-col items-center gap-3">
-        <h1 className="text-3xl text-ce-brown text-center font-semibold">
+        <h1 className="text-2xl sm:text-3xl text-ce-brown text-center font-semibold">
           Mentors
         </h1>
         <div className="border-2 border-ce-red w-32 mb-2" />
       </div>
       <div className="flex justify-center mt-7">
-        <ul className="max-w-screen-xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-16">
+        <ul className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 md:gap-16">
           {mentorsData.map((item) => {
             return (
               <li key={item.id}>
@@ -24,12 +24,14 @@ const Mentors = () => {
                     alt={item.tiile}
                     className=""
                   />
-                  <h3 className="text-3xl text-ce-brown text-center font-semibold">
-                    {item.name}
-                  </h3>
-                  <p className="text-xl text-ce-black text-center">
-                    {item.designation}
-                  </p>
+                  <div className="flex flex-col items-center px-10">
+                    <h3 className="text-2xl text-ce-brown text-center font-semibold">
+                      {item.name}
+                    </h3>
+                    <p className="text-lg text-ce-black text-center">
+                      {item.designation}
+                    </p>
+                  </div>
                 </div>
               </li>
             )
