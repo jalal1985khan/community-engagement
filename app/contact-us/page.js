@@ -20,7 +20,7 @@ const page = () => {
           </h1>
           <div className="border-2 border-ce-red w-32" />
           <p className="text-3xl text-[#6E180C] text-center mt-10">
-            Let's Start a Conversation
+            Let&apos;s Start a Conversation
           </p>
           <div className="border-2 border-ce-carmine w-20" />
         </div>

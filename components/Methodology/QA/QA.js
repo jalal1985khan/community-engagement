@@ -17,8 +17,8 @@ const QA = () => {
         data collection processes and protocols, and applying quality control
         measures. Additionally, QA involves documentation systems and reporting
         activities for the assignment work. This system provides information
-        that confirms the data's quality and evaluates whether it meets the
-        project's requirements.
+        that confirms the data&apos;s quality and evaluates whether it meets the
+        project&apos;s requirements.
       </p>
       <Image
         src="/methodology/qa.png"
