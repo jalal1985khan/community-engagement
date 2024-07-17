@@ -28,7 +28,7 @@ export default function Home() {
             Building Stronger Communities through{' '}
             <br className="hidden sm:block" /> Insight and Engagement
           </h1>
-          <p className="text-base sm:text-lg md:text-xl text-ce-gray text-center">
+          <p className="text-base sm:text-lg md:text-xl text-ce-gray text-center mt-5">
             Transforming market and consumer intelligence into actionable
             insights empowers individuals to make informed decisions, driving
             success and fostering strategic change. Our expertise lies in

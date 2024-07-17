@@ -24,7 +24,7 @@ const page = () => {
             </h1>
             <div className="border-2 border-ce-red w-20 sm:w-32 mb-2" />
           </div>
-          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center">
+          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center mt-10">
             We excel in accessing and understanding the critical mile where
             impact is targeted—in diverse communities and local ecosystems—which
             is crucial for making informed decisions, implementing
