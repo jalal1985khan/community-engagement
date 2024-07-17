@@ -17,10 +17,10 @@ const page = () => {
           </Link>
         </div>
       </div>
-      <div className="-mt-16 mb-16">
+      <div className="-mt-40 mb-16">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-24 flex flex-col gap-6">
           <div className="flex flex-col items-center gap-3">
-            <h1 className="text-xl sm:text-2xl lg:text-3xl text-ce-brown text-center font-semibold">
+            <h1 className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold">
               Methodology
             </h1>
             <div className="border-2 border-ce-red w-20 mb-2" />
@@ -28,7 +28,7 @@ const page = () => {
               Data Quality Assurance and Control Process
             </h2>
           </div>
-          <p className="text-base lg:text-xl text-ce-gray text-center">
+          <p className="text-base lg:text-xl text-ce-gray text-center mt-5">
             We excel in accessing and understanding the critical mile where
             impact is targeted—in diverse communities and local ecosystems—which
             is crucial for making informed decisions, implementing

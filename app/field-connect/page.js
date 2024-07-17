@@ -30,7 +30,7 @@ const page = () => {
               Data Quality Assurance and Control Process
             </h2>
           </div>
-          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center mb-3">
+          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center mb-3 mt-5">
             Social research is on the rise, driven by the need to understand
             complex social dynamics beyond mere consumer preferences. This surge
             highlights a crucial gap: the need for well-trained fieldworkers who

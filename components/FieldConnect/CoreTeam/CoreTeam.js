@@ -4,7 +4,7 @@ import React from 'react'
 
 const CoreTeam = () => {
   return (
-    <div className="flex flex-col items-center gap-10 py-16 px-5 mb-10">
+    <div className="flex flex-col items-center gap-10 py-12 px-5 mb-5">
       <div className="flex flex-col items-center gap-3">
         <h1 className="text-2xl sm:text-3xl text-ce-brown text-center font-semibold">
           Core Team
