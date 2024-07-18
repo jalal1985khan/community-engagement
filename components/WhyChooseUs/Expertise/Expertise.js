@@ -17,8 +17,8 @@ const Expertise = () => {
           />
           <Image
             src="/whyChooseUs/expertise02.png"
-            width={1000}
-            height={1000}
+            width={327}
+            height={1330}
             alt=""
             className="w-full block md:hidden p-3"
           />

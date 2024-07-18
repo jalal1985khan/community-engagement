@@ -29,8 +29,8 @@ const QA = () => {
       />
       <Image
         src="/methodology/qa02.png"
-        width={1000}
-        height={500}
+        width={390}
+        height={889}
         alt=""
         className="w-4/5 sm:w-3/5 lg:w-3/5 block md:hidden"
       />
