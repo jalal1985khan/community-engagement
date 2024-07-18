@@ -9,7 +9,7 @@ const MentorAndAdvisors = () => {
         <h1 className="text-2xl sm:text-3xl text-ce-brown text-center font-semibold">
           Mentor and Advisors
         </h1>
-        <div className="border-2 border-ce-red w-32 mb-2" />
+        <div className="border-2 border-ce-red w-20 mb-2" />
       </div>
 
       <div className="flex justify-center mt-7">

@@ -49,9 +49,9 @@ const page = () => {
         </div>
       </div>
       <PortfolioManager />
-      <CoreTeam />
+      {/* <CoreTeam />
       <Mentors />
-      <MentorAndAdvisors />
+      <MentorAndAdvisors /> */}
     </>
   )
 }

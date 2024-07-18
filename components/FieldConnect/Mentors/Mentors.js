@@ -9,7 +9,7 @@ const Mentors = () => {
         <h1 className="text-2xl sm:text-3xl text-ce-brown text-center font-semibold">
           Mentors
         </h1>
-        <div className="border-2 border-ce-red w-32 mb-2" />
+        <div className="border-2 border-ce-red w-20 mb-2" />
       </div>
       <div className="flex justify-center mt-7">
         <ul className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 md:gap-16">

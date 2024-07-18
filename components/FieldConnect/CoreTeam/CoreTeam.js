@@ -6,10 +6,10 @@ const CoreTeam = () => {
   return (
     <div className="flex flex-col items-center gap-10 py-12 px-5 mb-5">
       <div className="flex flex-col items-center gap-3">
-        <h1 className="text-2xl sm:text-3xl text-ce-brown text-center font-semibold">
+        <h1 className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold">
           Core Team
         </h1>
-        <div className="border-2 border-ce-red w-20 sm:w-32 mb-2" />
+        <div className="border-2 border-ce-red w-20 mb-2" />
       </div>
 
       <div className="flex justify-center mt-7">
