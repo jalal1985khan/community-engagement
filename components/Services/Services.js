@@ -17,7 +17,7 @@ const Services = () => {
   const isValidCard = getActiveService().data.card.length >= 1
   return (
     <>
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center mb-5">
         <ul className="flex flex-wrap justify-center gap-4 sm:gap-8 max-w-screen-xl mx-auto">
           {servicesData.map((item) => (
             <li key={item.id}>
@@ -47,7 +47,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="flex justify-center my-8 sm:my-16">
+      <div className="flex justify-center my-8 sm:my-10">
         {isValidCard ? (
           <ul className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-16 px-3">
             {getActiveService().data.card.map((item) => (

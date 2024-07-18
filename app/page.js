@@ -22,74 +22,26 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="-mt-40 mb-16">
+      <div className="-mt-24 mb-16">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-6">
           <h1 className="text-2xl sm:text-3xl md:text-4xl text-ce-brown text-center font-semibold">
             Building Stronger Communities through{' '}
             <br className="hidden sm:block" /> Insight and Engagement
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-ce-gray text-center mt-5">
-            Transforming market and consumer intelligence into actionable
-            insights empowers individuals to make informed decisions, driving
-            success and fostering strategic change. Our expertise lies in
-            engaging with diverse communities, utilising advanced technology and
-            methods to discover valuable perspectives. Our presence spans every
-            corner of the nation and extends across the globe. In collaboration
-            with <br />
-            <Link
-              href="https://cms.org.in"
-              target="_blank"
-              className="text-ce-black underline"
-            >
-              Catalyst Management Services
-            </Link>
-            ,{' '}
-            <Link
-              href="https://swasti.org"
-              target="_blank"
-              className="text-ce-black underline"
-            >
-              Swasti
-            </Link>
-            ,{' '}
-            <Link
-              href="https://vruttiimpactcatalysts.org"
-              target="_blank"
-              className="text-ce-black underline"
-            >
-              Vrutti
-            </Link>
-            ,{' '}
-            <Link
-              href="https://upfront.global"
-              target="_blank"
-              className="text-ce-black underline"
-            >
-              Upfront
-            </Link>
-            ,{' '}
-            <Link
-              href="https://greenfoundation.in"
-              target="_blank"
-              className="text-ce-black underline"
-            >
-              Green Foundation
-            </Link>
-            , and{' '}
-            <Link
-              href="https://fuzhio.org"
-              target="_blank"
-              className="text-ce-black underline"
-            >
-              Fuzhio
-            </Link>
-            , we ensure high-quality, accurate <br /> data collection and
-            analysis.
+            Community Engagement stands at the forefront of field services,
+            revolutionising market and consumer research across India and
+            globally. Our network of expertly trained and ethically certified
+            field personnel excels in delivering customized, insightful <br />
+            engagements within diverse communities.
           </p>
           <p className="text-base sm:text-lg md:text-xl text-ce-gray text-center">
-            Choosing Community Engagement means selecting a partner committed to
-            empowerment and precision, ensuring your strategies are
-            well-informed and capable of driving lasting, impactful change.
+            Committed to rapid response and meticulous data collection, we
+            empower organisations to make informed, impactful decisions. With
+            capabilities for swift deployment both domestically and
+            internationally,we ensure every project achieves strategic success
+            and data integrity, setting new standards in community engagement
+            and actionable insights.
           </p>
         </div>
       </div>

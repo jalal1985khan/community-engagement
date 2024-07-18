@@ -17,7 +17,7 @@ const page = () => {
           </Link>
         </div>
       </div>
-      <div className="-mt-40 mb-16">
+      <div className="-mt-32 mb-16">
         <div className="max-w-screen-xl mx-auto px-24 flex flex-col gap-6">
           <div className="flex flex-col items-center gap-3">
             <h1 className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold">

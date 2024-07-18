@@ -64,7 +64,7 @@ const Header = () => {
           id="navbar-dropdown"
         >
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:items-center md:mt-0">
-            <li>
+            {/* <li>
               <Link
                 href="/"
                 className="block py-2 px-3 text-lg text-white md:p-0"
@@ -72,7 +72,7 @@ const Header = () => {
               >
                 Home
               </Link>
-            </li>
+            </li> */}
             <li className="relative">
               <button
                 id="dropdownNavbarLink"

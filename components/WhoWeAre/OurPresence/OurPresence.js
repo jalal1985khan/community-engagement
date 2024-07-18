@@ -20,7 +20,12 @@ const OurPresence = () => {
               </div>
               <div className="px-6 md:px-10 py-3">
                 <p className="text-lg md:text-xl text-ce-black">
-                  Our Field Connect team is present across India.
+                  Our Field Connect team spans across India, from metros to
+                  remote areas, ensuring rapid, tailored responses with a
+                  72-hour turnaround time. This extensive reach enhances our
+                  ability to deliver precise, locally adapted solutions swiftly,
+                  demonstrating our commitment to accessibility and effective
+                  support nationwide.
                 </p>
               </div>
             </div>

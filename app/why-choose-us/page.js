@@ -16,7 +16,7 @@ const page = () => {
           </Link>
         </div>
       </div>
-      <div className="-mt-40 mb-16">
+      <div className="-mt-24 mb-16">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-24 flex flex-col gap-6">
           <div className="flex flex-col items-center gap-3">
             <h1 className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold">
@@ -24,16 +24,15 @@ const page = () => {
             </h1>
             <div className="border-2 border-ce-red w-20 sm:w-32 mb-2" />
           </div>
-          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center mt-10">
-            We excel in accessing and understanding the critical mile where
-            impact is targeted—in diverse communities and local ecosystems—which
-            is crucial for making informed decisions, implementing
-            interventions, and delivering services. Each community’s unique
-            setting requires specialised knowledge, experience, and a tailored
-            approach to engagement. The need for community engagement varies
-            widely in duration and urgency based on stakeholder requirements,
-            and cannot be effectively handled by casually contracted, short-term
-            teams.
+          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center">
+            We offer unparalleled expertise with a robust presence across India
+            and rapid 72-hour deployment capabilities extending to Asia, the
+            Middle East, and Africa. Our ethically certified, ultra-local field
+            teams are rigorously trained to meet specific project needs,
+            ensuring precise, gender-balanced insights. Our 'Data Quality
+            Assurance and Control' ensures every insight is authentic and
+            actionable, making us your ideal partner for driving meaningful
+            change.
           </p>
         </div>
       </div>

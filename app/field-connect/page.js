@@ -19,7 +19,7 @@ const page = () => {
           </Link>
         </div>
       </div>
-      <div className="-mt-40 mb-16">
+      <div className="-mt-24 mb-12">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-24 flex flex-col gap-6">
           <div className="flex flex-col items-center gap-3">
             <h1 className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold">
@@ -30,7 +30,7 @@ const page = () => {
               Data Quality Assurance and Control Process
             </h2>
           </div>
-          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center mb-3 mt-5">
+          <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center">
             Social research is on the rise, driven by the need to understand
             complex social dynamics beyond mere consumer preferences. This surge
             highlights a crucial gap: the need for well-trained fieldworkers who
