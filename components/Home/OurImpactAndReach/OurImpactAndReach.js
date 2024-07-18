@@ -6,11 +6,18 @@ const OurImpactAndReach = () => {
       <h2 className="text-ce-brown text-3xl">Our Impact and Reach</h2>
       <div className="border-2 border-ce-red w-20 mb-2" />
       <Image
-        src="/home/ourImpactAndReach/image.png"
+        src="/home/ourImpactAndReach/image01.png"
         width={700}
         height={420}
         alt=""
-        className="mt-5"
+        className="mt-5 hidden md:block"
+      />
+      <Image
+        src="/home/ourImpactAndReach/image02.png"
+        width={276}
+        height={714}
+        alt=""
+        className="mt-5 block md:hidden"
       />
     </div>
   )

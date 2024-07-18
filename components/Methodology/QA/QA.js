@@ -3,7 +3,7 @@ import React from 'react'
 
 const QA = () => {
   return (
-    <div className="qa-con flex flex-col items-center gap-10 py-14 px-5 sm:px-10 lg:px-24">
+    <div className="qa-con flex flex-col items-center gap-10 py-16 px-5 sm:px-10 lg:px-24">
       <div className="flex flex-col items-center gap-3">
         <h1 className="text-xl sm:text-2xl lg:text-3xl text-ce-brown text-center font-semibold">
           Quality Assurance (QA)
@@ -21,11 +21,18 @@ const QA = () => {
         project&apos;s requirements.
       </p>
       <Image
-        src="/methodology/qa.png"
+        src="/methodology/qa01.png"
         width={1000}
         height={500}
         alt=""
-        className="w-4/5 sm:w-3/5 lg:w-3/5"
+        className="w-4/5 sm:w-3/5 lg:w-3/5 hidden md:block"
+      />
+      <Image
+        src="/methodology/qa02.png"
+        width={1000}
+        height={500}
+        alt=""
+        className="w-4/5 sm:w-3/5 lg:w-3/5 block md:hidden"
       />
     </div>
   )

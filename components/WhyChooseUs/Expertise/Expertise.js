@@ -9,11 +9,18 @@ const Expertise = () => {
           <h2 className="text-ce-brown text-3xl text-center">Expertise</h2>
           <div className="border-2 border-ce-red w-20 mb-2" />
           <Image
-            src="/whyChooseUs/expertise.png"
+            src="/whyChooseUs/expertise01.png"
             width={1000}
             height={1000}
             alt=""
-            className="mt-5 w-full"
+            className="mt-5 w-full hidden md:block"
+          />
+          <Image
+            src="/whyChooseUs/expertise02.png"
+            width={1000}
+            height={1000}
+            alt=""
+            className="w-full block md:hidden p-3"
           />
         </div>
       </div>
