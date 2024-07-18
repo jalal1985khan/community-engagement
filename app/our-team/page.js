@@ -9,7 +9,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
-      <div className="h-[700px] bg-[url('/webBanner/banner05.png')] bg-cover mb-16">
+      <div className="h-[700px] bg-[url('/webBanner/banner10.png')] bg-cover mb-16">
         <Header />
         <div className="text-end mt-16">
           <Link href="contact-us">

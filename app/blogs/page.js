@@ -27,23 +27,31 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between mb-16">
-        <ul className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-3">
+      <div className="flex justify-center mb-16 px-4">
+        <ul className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {blogsData.map((item) => {
             return (
-              <li key={item.id} className="w-[522px] p-2 bg-[#F4F4F4]">
+              <li
+                key={item.id}
+                className="bg-[#F4F4F4] rounded-lg overflow-hidden shadow-md"
+              >
                 <div className="w-full">
                   <Image
                     src={item.imageUrl}
                     width={496}
                     height={310}
-                    className="w-full"
+                    className="w-full object-cover"
+                    alt={item.tiile}
                   />
                 </div>
-                <div className="flex flex-col items-start gap-5 px-3 py-4">
-                  <h3 className="text-2xl text-[#1C1C1C]">{item.tiile}</h3>
-                  <p className="text-base text-[#1C1C1C]">{item.desc}</p>
-                  <button className="bg-ce-red text-white px-6 py-2 rounded">
+                <div className="flex flex-col items-start gap-5 p-4">
+                  <h3 className="text-xl lg:text-2xl text-[#1C1C1C]">
+                    {item.tiile}
+                  </h3>
+                  <p className="text-sm lg:text-base text-[#1C1C1C]">
+                    {item.desc}
+                  </p>
+                  <button className="bg-ce-red text-white px-4 py-2 rounded">
                     Read More
                   </button>
                 </div>
