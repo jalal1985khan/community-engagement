@@ -29,8 +29,8 @@ const page = () => {
             and rapid 72-hour deployment capabilities extending to Asia, the
             Middle East, and Africa. Our ethically certified, ultra-local field
             teams are rigorously trained to meet specific project needs,
-            ensuring precise, gender-balanced insights. Our 'Data Quality
-            Assurance and Control' ensures every insight is authentic and
+            ensuring precise, gender-balanced insights. Our &apos;Data Quality
+            Assurance and Control&apos; ensures every insight is authentic and
             actionable, making us your ideal partner for driving meaningful
             change.
           </p>
