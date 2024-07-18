@@ -6,8 +6,14 @@ const FieldConnect = () => {
     <div className="flex flex-col items-center gap-4 mb-16">
       <h2 className="text-ce-brown text-3xl">Field Connect</h2>
       <div className="border-2 border-ce-red w-20 mb-2" />
-      <div>
-        <Image src="/home/placeholder.png" width={940} height={518} alt="" />
+      <div className="w-full max-w-screen-lg">
+        <video className="w-full" controls>
+          <source
+            src="https://ivista-digital-bucket.blr1.cdn.digitaloceanspaces.com/cg/fuzhio_ce.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   )
