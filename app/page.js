@@ -25,19 +25,19 @@ export default function Home() {
       <div className="-mt-24 mb-16">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-6">
           <h1 className="text-2xl sm:text-3xl md:text-4xl text-ce-brown text-center font-semibold">
-            Building Stronger Communities through{' '}
-            <br className="hidden sm:block" /> Insight and Engagement
+            Enhancing Decision-Making through Active and <br /> Targeted
+            Community Engagement
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-ce-gray text-center mt-5">
             Community Engagement stands at the forefront of field services,
             revolutionising market and consumer research across India and
             globally. Our network of expertly trained and ethically certified
-            field personnel excels in delivering customised, insightful <br />
-            engagements within diverse communities.
+            field personnel excels drawing out valuable insights through their
+            immersive engagements with diverse communities.
           </p>
           <p className="text-base sm:text-lg md:text-xl text-ce-gray text-center">
             Committed to rapid response and meticulous data collection, we
-            empower organisations to make informed, impactful decisions. With
+            empower organisations to make informed and impactful decisions. With
             capabilities for swift deployment both domestically and
             internationally, we ensure every project achieves strategic success
             and data integrity, setting new standards in community engagement

@@ -25,14 +25,15 @@ const page = () => {
             <div className="border-2 border-ce-red w-20 sm:w-32 mb-2" />
           </div>
           <p className="text-base sm:text-lg lg:text-xl text-ce-gray text-center">
-            We offer unparalleled expertise with a robust presence across India
-            and rapid 72-hour deployment capabilities extending to Asia, the
-            Middle East, and Africa. Our ethically certified, ultra-local field
-            teams are rigorously trained to meet specific project needs,
-            ensuring precise, gender-balanced insights. Our &apos;Data Quality
-            Assurance and Control&apos; ensures every insight is authentic and
-            actionable, making us your ideal partner for driving meaningful
-            change.
+            Our deep field connection and engagement with diverse grassroots
+            communities empower us to swiftly draw out authentic and actionable
+            data and insights. We offer a rapid 72-hour deployment capabilities
+            extending to Asia, the Middle East, and Africa. Our ethically
+            certified, ultra-local field teams are rigorously trained to meet
+            specific project needs, ensuring precise, gender-balanced insights.
+            Our &apos;Data Quality Assurance and Control&apos; ensures every
+            insight is authentic and actionable, making us your ideal partner
+            for driving meaningful change.
           </p>
         </div>
       </div>
