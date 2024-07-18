@@ -101,13 +101,13 @@ const Footer = () => {
               </h3>
               <ul className="flex flex-row justify-between space-x-4 mt-2">
                 <li className="bg-ce-light-green p-2.5 text-xl text-ce-black flex justify-center items-center rounded-full hover:bg-white cursor-pointer">
-                  <Link href="/">{facebook}</Link>
+                  <Link href="#">{facebook}</Link>
                 </li>
                 <li className="bg-ce-light-green p-2.5 text-xl text-ce-black flex justify-center items-center rounded-full hover:bg-white cursor-pointer">
-                  <Link href="/">{twitter}</Link>
+                  <Link href="#">{twitter}</Link>
                 </li>
                 <li className="bg-ce-light-green p-2.5 text-xl text-ce-black flex justify-center items-center rounded-full hover:bg-white cursor-pointer">
-                  <Link href="/">{linkedIn}</Link>
+                  <Link href="#">{linkedIn}</Link>
                 </li>
               </ul>
             </div>
