@@ -32,14 +32,14 @@ export default function Home() {
             Community Engagement stands at the forefront of field services,
             revolutionising market and consumer research across India and
             globally. Our network of expertly trained and ethically certified
-            field personnel excels in delivering customized, insightful <br />
+            field personnel excels in delivering customised, insightful <br />
             engagements within diverse communities.
           </p>
           <p className="text-base sm:text-lg md:text-xl text-ce-gray text-center">
             Committed to rapid response and meticulous data collection, we
             empower organisations to make informed, impactful decisions. With
             capabilities for swift deployment both domestically and
-            internationally,we ensure every project achieves strategic success
+            internationally, we ensure every project achieves strategic success
             and data integrity, setting new standards in community engagement
             and actionable insights.
           </p>
