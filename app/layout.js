@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer/Footer'
 import '../styles/globals.css'
+import { AppProvider } from '@/context/AppContext'
 
 export const metadata = {
   title: 'Create Next App',
@@ -10,10 +11,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <main>
-          {children}
-          <Footer />
-        </main>
+        <AppProvider>
+          <main>
+            {children}
+            <Footer />
+          </main>
+        </AppProvider>
       </body>
     </html>
   )

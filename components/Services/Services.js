@@ -1,11 +1,13 @@
 'use client'
 
+import { AppContext } from '@/context/AppContext'
 import { servicesData } from '@/utils/data'
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 
 const Services = () => {
-  const [activeTab, setActiveTab] = useState(1)
+  const { activeServiceId } = useContext(AppContext)
+  const [activeTab, setActiveTab] = useState(activeServiceId)
 
   const getActiveService = () => {
     const filteredActiveService = servicesData.find(

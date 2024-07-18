@@ -1,8 +1,13 @@
+'use client'
+
+import { AppContext } from '@/context/AppContext'
 import { ourServicesData } from '@/utils/data'
-import Image from 'next/image'
-import React from 'react'
+import Link from 'next/link'
+import React, { useContext } from 'react'
 
 const OurServices = () => {
+  const { setActiveServiceId } = useContext(AppContext)
+
   return (
     <div className="flex flex-col items-center gap-4 mb-16">
       <h2 className="text-ce-brown text-3xl sm:text-4xl">Our Services</h2>
@@ -24,9 +29,14 @@ const OurServices = () => {
                   <p className="text-base sm:text-lg text-ce-gray text-center mb-7 group-hover:text-white transition-colors duration-300">
                     {item.desc}
                   </p>
-                  <button className="px-4 sm:px-5 py-2 bg-ce-orange text-white text-base sm:text-lg rounded group-hover:text-ce-black group-hover:bg-white transition-colors duration-300">
-                    Read More
-                  </button>
+                  <Link href="/services">
+                    <button
+                      onClick={() => setActiveServiceId(item.id)}
+                      className="px-4 sm:px-5 py-2 bg-ce-orange text-white text-base sm:text-lg rounded group-hover:text-ce-black group-hover:bg-white transition-colors duration-300"
+                    >
+                      Read More
+                    </button>
+                  </Link>
                 </div>
               </li>
             )
