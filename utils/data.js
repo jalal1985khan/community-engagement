@@ -1,31 +1,36 @@
 export const snapshotData = [
   {
     id: 1,
-    iconUrl: '/home/snapshot/icon1.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/snapshot/icon1.png',
     count: '200000+',
     title: 'Household Surveys',
   },
   {
     id: 2,
-    iconUrl: '/home/snapshot/icon2.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/snapshot/icon2.png',
     count: '75000+',
     title: 'Key Informant Interviews',
   },
   {
     id: 3,
-    iconUrl: '/home/snapshot/icon3.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/snapshot/icon3.png',
     count: '50000+',
     title: 'In-depth Surveys',
   },
   {
     id: 4,
-    iconUrl: '/home/snapshot/icon4.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/snapshot/icon4.png',
     count: '25000+',
     title: 'Focus Group Discussions',
   },
   {
     id: 5,
-    iconUrl: '/home/snapshot/icon5.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/snapshot/icon5.png',
     count: '1000+',
     title: 'Polling Booth',
   },
@@ -34,90 +39,111 @@ export const snapshotData = [
 export const sdgData = [
   {
     id: 1,
-    iconUrl: '/home/sdg/icon01.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon01.png',
   },
   {
     id: 2,
-    iconUrl: '/home/sdg/icon02.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon02.png',
   },
   {
     id: 3,
-    iconUrl: '/home/sdg/icon03.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon03.png',
   },
   {
     id: 4,
-    iconUrl: '/home/sdg/icon04.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon04.png',
   },
   {
     id: 5,
-    iconUrl: '/home/sdg/icon05.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon05.png',
   },
   {
     id: 6,
-    iconUrl: '/home/sdg/icon06.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon06.png',
   },
   {
     id: 7,
-    iconUrl: '/home/sdg/icon07.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon07.png',
   },
   {
     id: 8,
-    iconUrl: '/home/sdg/icon08.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon08.png',
   },
   {
     id: 9,
-    iconUrl: '/home/sdg/icon09.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon09.png',
   },
   {
     id: 10,
-    iconUrl: '/home/sdg/icon10.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon10.png',
   },
   {
     id: 11,
-    iconUrl: '/home/sdg/icon11.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon11.png',
   },
   {
     id: 12,
-    iconUrl: '/home/sdg/icon12.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon12.png',
   },
   {
     id: 13,
-    iconUrl: '/home/sdg/icon13.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon13.png',
   },
   {
     id: 14,
-    iconUrl: '/home/sdg/icon14.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon14.png',
   },
   {
     id: 15,
-    iconUrl: '/home/sdg/icon15.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon15.png',
   },
   {
     id: 16,
-    iconUrl: '/home/sdg/icon16.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon16.png',
   },
   {
     id: 17,
-    iconUrl: '/home/sdg/icon17.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/sdg/icon17.png',
   },
 ]
 
 export const partnersData = [
   {
     id: 1,
-    imageUrl: '/home/partners/image01.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image01.png',
   },
   {
     id: 2,
-    imageUrl: '/home/partners/image02.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image02.png',
   },
   {
     id: 3,
-    imageUrl: '/home/partners/image03.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image03.png',
   },
   {
     id: 4,
-    imageUrl: '/home/partners/image04.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image04.png',
   },
 ]
 
@@ -164,78 +190,81 @@ export const clientleData = [
     id: 2,
     tab: 'International Organisations',
     partners: [
-      '/home/partners/image06.png',
-      '/home/partners/image07.png',
-      '/home/partners/image08.png',
-      '/home/partners/image09.png',
-      '/home/partners/image10.png',
-      '/home/partners/image11.png',
-      '/home/partners/image12.png',
-      '/home/partners/image13.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image06.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image07.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image08.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image09.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image10.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image11.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image12.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image13.png',
     ],
   },
   {
     id: 3,
     tab: 'International Consulting Organisations',
     partners: [
-      '/home/partners/image05.png',
-      '/home/partners/image06.png',
-      '/home/partners/image07.png',
-      '/home/partners/image08.png',
-      '/home/partners/image09.png',
-      '/home/partners/image13.png',
-      '/home/partners/image14.png',
-      '/home/partners/image15.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image05.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image06.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image07.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image08.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image09.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image13.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image14.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image15.png',
     ],
   },
   {
     id: 4,
     tab: 'UN Organisations',
-    partners: ['/home/partners/image14.png', '/home/partners/image15.png'],
+    partners: [
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image14.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image15.png',
+    ],
   },
   {
     id: 5,
     tab: 'Corporate Companies',
     partners: [
-      '/home/partners/image16.png',
-      '/home/partners/image17.png',
-      '/home/partners/image18.png',
-      '/home/partners/image19.png',
-      '/home/partners/image20.png',
-      '/home/partners/image21.png',
-      '/home/partners/image22.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image16.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image17.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image18.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image19.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image20.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image21.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image22.png',
     ],
   },
   {
     id: 6,
     tab: 'Tech Companies',
     partners: [
-      '/home/partners/image23.png',
-      '/home/partners/image24.png',
-      '/home/partners/image25.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image23.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image24.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image25.png',
     ],
   },
   {
     id: 7,
     tab: 'Academic Universities',
     partners: [
-      '/home/partners/image26.png',
-      '/home/partners/image27.png',
-      '/home/partners/image28.png',
-      '/home/partners/image29.png',
-      '/home/partners/image30.png',
-      '/home/partners/image31.png',
-      '/home/partners/image32.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image26.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image27.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image28.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image29.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image30.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image31.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image32.png',
     ],
   },
   {
     id: 8,
     tab: 'Organisations',
     partners: [
-      '/home/partners/image33.png',
-      '/home/partners/image34.png',
-      '/home/partners/image35.png',
-      '/home/partners/image36.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image33.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image34.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image35.png',
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/partners/image36.png',
     ],
   },
 ]
@@ -243,37 +272,43 @@ export const clientleData = [
 export const qcData = [
   {
     id: 1,
-    iconUrl: '/methodology/icon01.svg',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/methodology/icon01.svg',
     tiile: 'Data Monitoring',
     desc: 'Spot Visit, Accomained Survey, Dashboard Monitoring, Reporting, and Handholding',
   },
   {
     id: 2,
-    iconUrl: '/methodology/icon02.svg',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/methodology/icon02.svg',
     tiile: 'Data Profilling',
     desc: 'Pattern, Distribution, Outlets etc.',
   },
   {
     id: 3,
-    iconUrl: '/methodology/icon03.svg',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/methodology/icon03.svg',
     tiile: 'Data Auditing',
     desc: 'Backcheck and Audio Audits',
   },
   {
     id: 4,
-    iconUrl: '/methodology/icon04.svg',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/methodology/icon04.svg',
     tiile: 'Data Validations',
     desc: 'Phone and GPS Validations',
   },
   {
     id: 5,
-    iconUrl: '/methodology/icon05.svg',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/methodology/icon05.svg',
     tiile: 'Sample Validation',
     desc: 'Adherence Check to Sample Distribution',
   },
   {
     id: 6,
-    iconUrl: '/methodology/icon06.svg',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/methodology/icon06.svg',
     tiile: 'Transcript/Translations',
     desc: 'Double Check on Transcripts and Translation',
   },
@@ -288,37 +323,43 @@ export const coreTeamData = [
   },
   {
     id: 2,
-    iconUrl: '/fieldConnect/image02.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/image02.png',
     name: 'Dr. Khushwant Singh',
     designation: 'Lead - Field Operations and Data for Decision and Insights',
   },
   {
     id: 3,
-    iconUrl: '/fieldConnect/image03.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/image03.png',
     name: 'Prashant Shukla',
     designation: 'Lead - Project Start up Support and Zonal Manager North',
   },
   {
     id: 4,
-    iconUrl: '/fieldConnect/image04.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/image04.png',
     name: 'Sambit Kumar Nanda',
     designation: 'Lead - Skills4Community and Zonal Manager East',
   },
   {
     id: 5,
-    iconUrl: '/fieldConnect/image05.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/image05.png',
     name: 'Gagan Padival',
     designation: 'Lead - Tech Deployment and Zonal Manager South',
   },
   {
     id: 6,
-    iconUrl: '/fieldConnect/image06.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/image06.png',
     name: 'Yogish',
     designation: 'Lead - CAPI Design and Zonal Manager West',
   },
   {
     id: 7,
-    iconUrl: '/fieldConnect/image07.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/image07.png',
     name: 'Abdul Latheef P',
     designation: 'Portfolio Manager',
   },
@@ -327,13 +368,15 @@ export const coreTeamData = [
 export const mentorsData = [
   {
     id: 1,
-    iconUrl: '/fieldConnect/image08.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/image08.png',
     name: 'Raghunath Narayanan',
     designation: 'Mentor and Advisor',
   },
   {
     id: 2,
-    iconUrl: '/fieldConnect/image09.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/image09.png',
     name: 'Shiv Kumar',
     designation: 'Mentor and Advisor',
   },
@@ -348,7 +391,8 @@ export const MentorAndAdvisorsData = [
   },
   {
     id: 2,
-    iconUrl: '/fieldConnect/image10.png',
+    iconUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/image10.png',
     name: 'Ritika Gupta',
     designation: 'Evidence4Change',
   },
@@ -402,27 +446,32 @@ export const servicesData = [
       desc: 'We partner with organisations to maximise their social impact by providing the following services:',
       card: [
         {
-          iconUrl: '/services/icon01.svg',
+          iconUrl:
+            'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/services/icon01.svg',
           title: 'Data-Driven Decision Making',
           desc: 'We design and support digital databases, ensuring data integrity and accuracy for reliable, impactful decision-making.',
         },
         {
-          iconUrl: '/services/icon02.svg',
+          iconUrl:
+            'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/services/icon02.svg',
           title: 'Database Expertise',
           desc: 'Our experienced team maintains databases with supreme integrity, accuracy, and completeness.',
         },
         {
-          iconUrl: '/services/icon03.svg',
+          iconUrl:
+            'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/services/icon03.svg',
           title: 'Diverse Interview Techniques & Software',
           desc: 'We utilise a variety of interview tools and software to customise data collection based on partner needs.',
         },
         {
-          iconUrl: '/services/icon04.svg',
+          iconUrl:
+            'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/services/icon04.svg',
           title: 'Capacity Building & Support',
           desc: 'We provide extensive training and support to enhance partners’ data management skills for sustained data quality.',
         },
         {
-          iconUrl: '/services/icon05.svg',
+          iconUrl:
+            'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/services/icon05.svg',
           title: 'Research Expertise',
           desc: 'Our proficiency in Quantitative, Qualitative, and Mixed methods delivers insightful community research for improved decision-making.',
         },
@@ -452,25 +501,29 @@ export const servicesData = [
 export const blogsData = [
   {
     id: 1,
-    imageUrl: '/blogs/image01.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/blogs/image01.png',
     tiile: 'LOREM IPSUM',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: 2,
-    imageUrl: '/blogs/image01.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/blogs/image01.png',
     tiile: 'LOREM IPSUM',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: 3,
-    imageUrl: '/blogs/image01.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/blogs/image01.png',
     tiile: 'LOREM IPSUM',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: 4,
-    imageUrl: '/blogs/image01.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/blogs/image01.png',
     tiile: 'LOREM IPSUM',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
@@ -479,28 +532,32 @@ export const blogsData = [
 export const successStoriesData = [
   {
     id: 1,
-    imageUrl: '/successStories/image01.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/successStories/image01.png',
     heading: 'Lorem Ipsum',
     tiile: 'Lorem Ipsum Is Simply',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: 2,
-    imageUrl: '/successStories/image02.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/successStories/image02.png',
     heading: 'Lorem Ipsum',
     tiile: 'Lorem Ipsum Is Simply',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: 3,
-    imageUrl: '/successStories/image01.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/successStories/image01.png',
     heading: 'Lorem Ipsum',
     tiile: 'Lorem Ipsum Is Simply',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   },
   {
     id: 4,
-    imageUrl: '/successStories/image02.png',
+    imageUrl:
+      'https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/successStories/image02.png',
     heading: 'Lorem Ipsum',
     tiile: 'Lorem Ipsum Is Simply',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',

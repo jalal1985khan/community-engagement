@@ -12,7 +12,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <div className="h-[400px] md:h-[700px] bg-[url('/webBanner/banner01.png')] bg-cover bg-center mb-16">
+      <div className="h-[400px] md:h-[700px] bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/webBanner/banner01.png')] bg-cover bg-center mb-16">
         <Header />
         <div className="text-end mt-16">
           <Link href="contact-us">

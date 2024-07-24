@@ -37,7 +37,7 @@ const Footer = () => {
             </Link>
             <Link href="/">
               <Image
-                src="/home/logo.png"
+                src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/logo.png"
                 width={200}
                 height={111}
                 alt="Fuzhio"
