@@ -1,13 +1,22 @@
+'use client'
 import Header from '@/components/Header/Header'
 import { successStoriesData } from '@/utils/data'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const page = () => {
+  useEffect(() => {
+    AOS.init()
+  })
   return (
     <>
-      <div className="h-[700px] bg-[url('/webBanner/banner07.png')] bg-cover mb-16">
+      <div
+        className="h-[700px] bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/webBanner/banner07.png')] bg-cover mb-16"
+        data-aos="zoom-in"
+      >
         <Header />
         <div className="text-end mt-16">
           <Link href="contact-us">
@@ -20,7 +29,10 @@ const page = () => {
       <div className="-mt-32 mb-16">
         <div className="max-w-screen-xl mx-auto px-24 flex flex-col gap-6">
           <div className="flex flex-col items-center gap-3">
-            <h1 className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold">
+            <h1
+              className="text-2xl sm:text-3xl lg:text-[40px] text-ce-brown text-center font-semibold"
+              data-aos="fade-up"
+            >
               Success Stories
             </h1>
             <div className="border-2 border-ce-red w-32 mb-2" />
@@ -34,6 +46,7 @@ const page = () => {
               <li
                 key={item.id}
                 className="bg-[#F4F4F4] rounded-lg overflow-hidden shadow-md"
+                data-aos="zoom-in"
               >
                 <div className="w-full">
                   <Image

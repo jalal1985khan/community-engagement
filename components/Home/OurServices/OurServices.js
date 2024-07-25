@@ -10,7 +10,12 @@ const OurServices = () => {
 
   return (
     <div className="flex flex-col items-center gap-4 mb-16">
-      <h2 className="text-ce-brown text-3xl sm:text-4xl">Our Services</h2>
+      <h2
+        className="text-ce-brown text-3xl sm:text-4xl"
+        data-aos="zoom-in-down"
+      >
+        Our Services
+      </h2>
       <div className="border-2 border-ce-red w-20 mb-2" />
       <div className="flex justify-center">
         <ul className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-16 mt-5">
@@ -19,6 +24,7 @@ const OurServices = () => {
               <li
                 key={item.id}
                 className="border-y-4 border-y-ce-brown rounded-3xl group shadow-lg"
+                data-aos="fade-down"
               >
                 <div className="flex flex-col items-center p-4 rounded-3xl w-[280px] md:w-[300px] h-[270px] md:h-[290px] bg-[#FFF3DE] group-hover:bg-ce-orange transition-colors duration-300">
                   <h3

@@ -7,7 +7,10 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
   return (
     <>
-      <div className="flex flex-col items-center gap-4 p-4 sm:p-6 md:p-8 lg:p-10">
+      <div
+        className="flex flex-col items-center gap-4 p-4 sm:p-6 md:p-8 lg:p-10"
+        data-aos="zoom-in"
+      >
         <h2 className="text-ce-brown text-2xl sm:text-3xl">
           Contact Information
         </h2>
@@ -30,12 +33,12 @@ const Footer = () => {
       <div className="footer-bg bg-ce-vivid-green px-4 sm:px-5 pt-5 pb-8 text-white mt-7">
         <div className="max-w-screen-2xl px-4 sm:px-5 mx-auto mt-12 sm:mt-24">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
-            <Link href="/">
+            <Link href="/" data-aos="zoom-in">
               <h1 className="text-2xl sm:text-3xl mt-20 md:mt-0">
                 Community Engagement
               </h1>
             </Link>
-            <Link href="/">
+            <Link href="/" data-aos="zoom-in">
               <Image
                 src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/home/logo.png"
                 width={200}
@@ -46,7 +49,7 @@ const Footer = () => {
             </Link>
           </div>
           <hr className="w-full mb-6 mt-1 border-ce-light-green" />
-          <div className="flex flex-wrap justify-between">
+          <div className="flex flex-wrap justify-between" data-aos="zoom-up">
             <div className="text-base sm:text-lg md:text-xl">
               <h3 className="mb-2 hover:underline">
                 <Link href="/who-we-are">About Us</Link>

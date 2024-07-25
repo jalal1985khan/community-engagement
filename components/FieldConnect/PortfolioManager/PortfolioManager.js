@@ -6,11 +6,12 @@ const PortfolioManager = () => {
     <>
       <div className="qa-con flex flex-col items-center gap-10 py-24 px-5">
         <Image
-          src="/fieldConnect/portfolio.png"
+          src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/fieldConnect/portfolio.png"
           width={1000}
           height={500}
           alt=""
           className="w-full md:w-4/6"
+          data-aos="fade-up"
         />
       </div>
       {/* <svg width="1000" height="20">

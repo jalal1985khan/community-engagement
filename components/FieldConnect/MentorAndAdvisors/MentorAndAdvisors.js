@@ -6,7 +6,10 @@ const MentorAndAdvisors = () => {
   return (
     <div className="flex flex-col items-center gap-10 py-16 px-5 mb-5">
       <div className="flex flex-col items-center gap-3">
-        <h1 className="text-2xl sm:text-3xl text-ce-brown text-center font-semibold">
+        <h1
+          className="text-2xl sm:text-3xl text-ce-brown text-center font-semibold"
+          data-aos="fade-up"
+        >
           Mentor and Advisors
         </h1>
         <div className="border-2 border-ce-red w-20 mb-2" />
@@ -16,7 +19,7 @@ const MentorAndAdvisors = () => {
         <ul className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 md:gap-16">
           {MentorAndAdvisorsData.map((item) => {
             return (
-              <li key={item.id}>
+              <li key={item.id} data-aos="fade-up">
                 <div className="flex flex-col items-center gap-5">
                   <div className="bg-[#FFF3DE] w-[303px] h-[298px] rounded-3xl">
                     <Image

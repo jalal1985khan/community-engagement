@@ -22,7 +22,7 @@ const Services = () => {
       <div className="flex justify-center mb-5">
         <ul className="flex flex-wrap justify-center gap-4 sm:gap-8 max-w-screen-xl mx-auto">
           {servicesData.map((item) => (
-            <li key={item.id}>
+            <li key={item.id} data-aos="zoom-in">
               <button
                 className={`${
                   activeTab === item.id
@@ -37,7 +37,7 @@ const Services = () => {
           ))}
         </ul>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center" data-aos="zoom-in">
         <div className="flex flex-col items-center gap-5 mt-8 px-3 max-w-screen-xl mx-auto">
           <h1 className="text-2xl sm:text-3xl text-ce-brown font-semibold text-center">
             {getActiveService().data.title}
@@ -56,6 +56,7 @@ const Services = () => {
               <li
                 key={item.id}
                 className="flex flex-col items-center gap-5 w-full"
+                data-aos="zoom-in"
               >
                 <div className="flex flex-col items-center gap-5 w-full">
                   <Image

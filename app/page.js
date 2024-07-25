@@ -1,3 +1,4 @@
+'use client'
 import Header from '@/components/Header/Header'
 import Clientle from '@/components/Home/Clientle/Clientle'
 import ContactUs from '@/components/Home/ContactUs/ContactUs'
@@ -8,11 +9,21 @@ import OurServices from '@/components/Home/OurServices/OurServices'
 import SDGs from '@/components/Home/SDGs/SDGs'
 import Snapshot from '@/components/Home/Snapshot/Snapshot'
 import Link from 'next/link'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init()
+  })
+
   return (
     <>
-      <div className="h-[400px] md:h-[700px] bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/webBanner/banner01.png')] bg-cover bg-center mb-16">
+      <div
+        className="h-[400px] md:h-[700px] bg-[url('https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/community-engagement/webBanner/banner01.png')] bg-cover bg-center mb-16"
+        data-aos="fade-down"
+      >
         <Header />
         <div className="text-end mt-16">
           <Link href="contact-us">
@@ -24,18 +35,27 @@ export default function Home() {
       </div>
       <div className="-mt-24 mb-16">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-6">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl text-ce-brown text-center font-semibold">
+          <h1
+            className="text-2xl sm:text-3xl md:text-4xl text-ce-brown text-center font-semibold"
+            data-aos="fade-up"
+          >
             Enhancing Decision-Making through Active and <br /> Targeted
             Community Engagement
           </h1>
-          <p className="text-base sm:text-lg md:text-xl text-ce-gray text-center mt-5">
+          <p
+            className="text-base sm:text-lg md:text-xl text-ce-gray text-center mt-5"
+            data-aos="fade-down"
+          >
             Community Engagement stands at the forefront of field services,
             revolutionising market and consumer research across India and
             globally. Our network of expertly trained and ethically certified
             field personnel excels drawing out valuable insights through their
             immersive engagements with diverse communities.
           </p>
-          <p className="text-base sm:text-lg md:text-xl text-ce-gray text-center">
+          <p
+            className="text-base sm:text-lg md:text-xl text-ce-gray text-center"
+            data-aos="fade-down"
+          >
             Committed to rapid response and meticulous data collection, we
             empower organisations to make informed and impactful decisions. With
             capabilities for swift deployment both domestically and

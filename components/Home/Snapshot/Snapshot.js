@@ -16,6 +16,7 @@ const Snapshot = () => {
             <li
               key={item.id}
               className="border-b-4 border-b-ce-green rounded-lg"
+              data-aos="zoom-out-up"
             >
               <div className="flex flex-col items-center gap-2 p-5 rounded-lg w-[243px] h-[225px] bg-[#F5F6BA]">
                 <div className="flex-grow-0">
