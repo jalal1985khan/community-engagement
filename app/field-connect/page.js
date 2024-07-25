@@ -5,11 +5,11 @@ import Mentors from '@/components/FieldConnect/Mentors/Mentors'
 import PortfolioManager from '@/components/FieldConnect/PortfolioManager/PortfolioManager'
 import Header from '@/components/Header/Header'
 import Link from 'next/link'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-const page = () => {
+const Page = () => {
   useEffect(() => {
     AOS.init()
   })
@@ -75,4 +75,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

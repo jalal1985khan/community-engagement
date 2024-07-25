@@ -9,7 +9,7 @@ import OurServices from '@/components/Home/OurServices/OurServices'
 import SDGs from '@/components/Home/SDGs/SDGs'
 import Snapshot from '@/components/Home/Snapshot/Snapshot'
 import Link from 'next/link'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
