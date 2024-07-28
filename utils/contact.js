@@ -113,7 +113,7 @@ export default function ContactForm({ fields, form }) {
             key={field.id}
             className={`${
               field.type === 'textarea'
-                ? `col-span-${form}`
+                ? `${form === '2' ? 'col-span-2' : 'col-span-1'}`
                 : 'flex flex-col w-full'
             }`}
           >
