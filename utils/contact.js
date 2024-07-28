@@ -116,7 +116,7 @@ export default function ContactForm({ fields, form }) {
             className={`${
               field.type === 'textarea'
                 ? `col-span-${form}`
-                : 'flex flex-col w-full'
+                : 'flex flex-col w-full col-span-1'
             }`}
           >
             <label htmlFor={field.id}>{field.label}</label>
