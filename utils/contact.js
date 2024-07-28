@@ -1,5 +1,3 @@
-'use client'
-
 import React, { useState } from 'react'
 import InputField from './InputField' // Importing reusable input field component
 import TextAreaField from './TextAreaField' // Importing reusable textarea field component
@@ -103,20 +101,20 @@ export default function ContactForm({ fields, form }) {
     <form className="w-full max-w-screen-lg" onSubmit={handleFormSubmit}>
       {successMessage && (
         <div
-          class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+          className="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
           role="alert"
         >
-          <span class="font-medium">Submitted!</span> {successMessage}
+          <span className="font-medium">Submitted!</span> {successMessage}
         </div>
       )}
-      <div className={`grid-cols-${form} grid gap-4`}>
+      <div className={`grid grid-cols-${form} gap-4`}>
         {fields.map((field) => (
           <div
             key={field.id}
             className={`${
               field.type === 'textarea'
                 ? `col-span-${form}`
-                : 'flex flex-col w-full col-span-1'
+                : 'flex flex-col w-full'
             }`}
           >
             <label htmlFor={field.id}>{field.label}</label>
